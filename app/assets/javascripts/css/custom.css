@@ -1,0 +1,282 @@
+/* Add here all your CSS customizations */
+
+
+
+.appear-animation-visible-xy{
+     width:81px !important;
+    float:left !important;
+    margin:0px 0px 0px 11px !important;
+
+}
+.panel-body  p{
+  font-size:14px;
+  font-family:"Open Sans", Arial, sans-serif;
+  font-weight:600;
+
+}
+#sliderPagination a:hover {
+   background: #fff;
+   color: #666;
+   width: auto;
+}
+.feature-li li{
+  line-height:9px;
+
+}
+   .ul-iso-01{
+	padding: 0px 0px 0px 79px;
+    position: relative;
+    top: -33px;
+	}
+	 .ul-iso-02{
+	padding: 0px 0px 0px 79px;
+    position: relative;
+    top: -56px;
+
+	}
+	#timing{
+	position: relative;
+    top: -25px;
+    left:52px;
+	
+	}
+figure>img{
+  width:100% !important;
+}
+.ul-lead{
+    list-style: none;
+    position: relative;
+    top: -19px;
+    left: -35px;
+}
+.ul-lead li{
+   line-height: 26px;
+   font-weight: 600;
+}
+
+@media(max-width:1024px){
+  figure>img{
+  width:83% !important;
+}
+.button-set {
+    position: relative;
+    right: -272px !important;
+    text-align: center;
+    top: -9px !important;
+    z-index: 999;
+}
+ul.history li .featured-box{
+margin-left:0px;
+
+}
+ul.history li p {
+   margin-left:0px;
+}
+}
+@media(max-width:960px){
+div.img-1 {
+  margin-bottom: 10px;
+  
+}
+div.img-2 {
+  margin-bottom: 10px;
+}
+div.img-3{
+    margin-bottom: 10px;
+}
+div.img-4 {
+    margin-bottom: 10px;
+	
+}
+div.img-5 {
+    margin-bottom: 10px;
+}
+div.img-4>a>img {
+	width:20% !important;
+    vertical-align: middle !important;
+    position:relative;
+    top:7px !important;
+    left:20px !important;
+}
+div.img-5>a>img {
+	width:20% !important;
+    vertical-align: middle !important;
+    position:relative;
+    top:7px !important;
+    left:20px !important;
+}
+div.img-6>a>img {
+	width:20% !important;
+    vertical-align: middle !important;
+    position:relative;
+    top:7px !important;
+    left:20px !important;;
+}
+div.img-1>a>img {
+    width:20% !important;
+    vertical-align: middle !important;
+    position:relative;
+    top:7px !important;
+    left:20px !important;
+}
+div.img-2>a>img {
+    width:20% !important;
+    vertical-align: middle !important;
+    position:relative;
+    top:7px !important;
+    left:20px !important;
+}
+div.img-3>a>img {
+   width:20% !important;
+    vertical-align: middle !important;
+    position:relative;
+    top:7px !important;
+    left:20px !important;
+}
+
+
+}
+@media(max-width:768px){
+#cssSlider{
+   display:none;
+}
+}
+@media(max-width:667px){
+ .map-section {
+    background: transparent url(../img/flag.png) center 0 no-repeat;
+    padding-top:149px !important;
+    margin-top: 0px !important;
+	background-size:contain;
+}
+#text-global {
+    font-size: 15px !important;
+    color: black !important;
+    font-weight: normal !important;
+    position: relative;
+    left: 0px !important;
+    text-align: left !important;
+}
+p.featured{
+    text-align: left !important;
+}
+.slider-div {
+    background: transparent url(../img/banner.png) center 0 no-repeat;
+    background-size:cover !important;
+    min-height: 117px !important;
+    max-width: 100% !important;
+}
+div.img-1>a>img {
+    width:20% !important;
+    vertical-align: middle !important;
+    position: relative;
+    top: 17px !important;
+    left: 20px !important;
+}
+div.img-2>a>img {
+    width:20% !important;
+    vertical-align: middle !important;
+    position: relative;
+    top: 17px !important;
+    left: 20px !important;
+}
+div.img-3>a>img {
+    width:20% !important;
+    vertical-align: middle !important;
+    position: relative;
+    top: 17px !important;
+    left: 20px !important;
+}
+div.img-4>a>img {
+   width:20% !important;
+    vertical-align: middle !important;
+    position: relative;
+    top: 17px !important;
+    left: 20px !important;
+}
+div.img-5>a>img {
+    width:20% !important;
+    vertical-align: middle !important;
+    position: relative;
+    top: 17px !important;
+    left: 20px !important;
+}
+div.img-6>a>img {
+    width:20% !important;
+    vertical-align: middle !important;
+    position: relative;
+    top: 17px !important;
+    left: 20px !important;
+}
+   
+}
+@media(max-width:480px){
+.map-section {
+    background: transparent url(../img/flag.png) center 0 no-repeat;
+    padding-top: 95px !important;
+    margin-top: 0px !important;
+    background-size: contain;
+}
+.slider-div {
+    background: transparent url(../img/banner.png) center 0 no-repeat;
+    min-height:83px;
+    max-width:100%;
+    background-size:contain;
+}
+
+}
+@media(max-width:384px){
+div.img-1>a>img{
+    position: relative;
+    top: 26px !important;
+    width: 30% !important;
+}
+div.img-2>a>img{
+    position: relative;
+    top: 26px !important;
+    width: 30% !important;
+}
+div.img-3>a>img{
+    position: relative;
+    top: 26px !important;
+    width: 30% !important;
+}
+div.img-4>a>img{
+    position: relative;
+    top: 26px !important;
+    width: 30% !important;
+}
+div.img-5>a>img{
+    position: relative;
+    top: 26px !important;
+    width: 30% !important;
+}
+div.img-6>a>img{
+    position: relative;
+    top: 26px !important;
+    width: 30% !important;
+}
+}
+@media(max-width:320px){
+.slider-div {
+    background: transparent url(../img/banner.png) center 0 no-repeat;
+    min-height:54px !important;
+    max-width:100%;
+    background-size:contain;
+}
+.map-section {
+    background: transparent url(../img/flag.png) center 0 no-repeat;
+    padding-top: 70px !important;
+    margin-top: 0px !important;
+    background-size: cover;
+}
+
+}
+@media(min-width:100px) and (max-width:1023px){
+.box,.effect5{
+ display:none;
+}
+.button-set button {
+    display:none;
+}
+
+}

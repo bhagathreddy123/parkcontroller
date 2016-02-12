@@ -1,0 +1,47 @@
+@media(min-width:1920px){
+  .slider-div {
+    background: transparent url(../img/banner.png) center 0 no-repeat;
+    background-size: cover;
+    min-height:288px !important;
+}
+div.img-5>a>img {
+    margin: 0;
+    cursor: pointer;
+    border: 0px solid #B6B5B3;
+    border-bottom: 2.8px solid #B6B5B3;
+    border-radius: 13px;
+    border-left: 3.3px solid #B6B5B3;
+    border-top: 2px solid #B6B5B3;
+    position:relative !important;
+    top: 3px !important;
+    height:170px !important;
+    left: 4px !important;
+}
+div.img-4>a>img{
+     position:relative !important;
+    left:10px !important;
+}
+div.img-3>a>img{
+     position:relative !important;
+    left: 16px !important;
+
+}
+div.img-2>a>img {
+    border: 0px solid #B6B5B3;
+    margin: 0;
+    cursor: pointer;
+    position: relative !important;
+    left: 17px !important;
+    width:166px !important;
+}
+.home-intro{
+     padding: 14px 0 10px 0 !important;
+
+}
+div.img-1>a>img{
+     position:relative !important;
+    left:5px !important;
+}
+
+
+}
