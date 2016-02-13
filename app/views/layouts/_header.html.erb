@@ -156,11 +156,15 @@
                     Contact Us
                     <!-- <i class="icon icon-angle-down"></i> -->
                   </a>
-                  <!-- <ul class="dropdown-menu">
-                    <li><a href="contact-us.html">Contact Us - Basic</a></li>
-                    <li><a href="contact-us-advanced.php">Contact Us - Advanced</a></li>
-                  </ul> -->
-                </li>
+               </li>
+
+<% if current_user %>
+<li><%#= link_to "Sign out", edit_user_registration_path%></li>
+<li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+<% else %>
+<li><%= link_to "SignIn",new_user_session_path %></li>
+<% end %>
+          
               </ul>
             </nav>
           </div>
