@@ -36,43 +36,6 @@ $(document).ready(function(){
 });
 
 
-// $(function(){
-  // // bind change event to select
-  // $('#select').bind('change', function () {
-    // var url = $(this).val(); // get selected option value
-    // if (url==1) { // require url to have value
-      // window.location = "sdr.html"; // open url
-    // }
-	// else if(url==2){
-	    // window.location = "feature-icons.html"; // open url			
-	// }
-	// else if(url==3){
-	    // window.location = "ampli.html"; // open url			
-	// }
-	// else if(url==4){
-	    // window.location = "combiner.html"; // open url			
-	// }
-	// else if(url==5){
-	    // window.location = "low.html"; // open url			
-	// }
-	// else if(url==6){
-	    // window.location = "down.html"; // open url			
-	// }
-	// else if(url==7){
-	    // window.location = "http://www.twitter.com"; // open url			
-	// }
-	// else if(url==8){
-	    // window.location = "modulator.html"; // open url			
-	// }
-	// else if(url==9){
-	    // window.location = "down.html"; // open url			
-	// }
-    // return false;
-  // });
-// });
-
-
-
 
   	  // for drop down jsonData
 		   var jsonData = {
@@ -207,97 +170,97 @@ $(document).ready(function(){
 	   $("#select").on('change',function(){
 	       var x=$("#select").val();
 		    if(x=='2'){
-			   window.location = "sdr.html"; // open url
+			   window.location = "/homes/sdr.html"; // open url
 			
 			}
 			 else if(x=='3'){
-		       window.location = "feature-icons.html"; // open url	
+		       window.location = "/homes/feature_icons.html"; // open url	
 		  
 		  }
 		    else if(x=='4'){
-		      window.location = "ampli.html"; // open url	 
+		      window.location = "/homes/ampli.html"; // open url	 
 		  
 		  }
 		   else if(x=='5'){
-		    window.location = "combiner.html"; // open url	
+		    window.location = "/homes/combiner.html"; // open url	
 		  }
 		    else if(x=='6'){
-		     window.location = "low.html"; // open url
+		     window.location = "/homes/low.html"; // open url
 		  }
 		   else if(x=='7'){
-			    window.location = "down.html"; // open url
+			    window.location = "/homes/down.html"; // open url
 		     
 		  }
 		   else if(x=='8'){
-		      window.location = "modulator.html"; // open url
+		      window.location = "/homes/modulator.html"; // open url
 		  }
 		  else if(x=='9'){
-		     window.location = "unit.html"; // open url
+		     window.location = "/homes/unit.html"; // open url
 		  }
 		  else if(x=='10'){
-		      window.location = "recorder.html"; // open url
+		      window.location = "/homes/recorder.html"; // open url
 		  }
 		  else if(x=='11'){
-		       window.location = "loader.html"; // open url
+		       window.location = "/homes/loader.html"; // open url
 		  }
 		  else if(x=='12'){
-		      window.location = "mil.html"; // open url
+		      window.location = "/homes/mil.html"; // open url
 		  }
 		  else if(x=='13'){
-		      window.location = "board.html"; // open url 
+		      window.location = "/homes/board.html"; // open url 
 		  }
 		  else if(x=='14'){
-		       window.location = "airbone.html"; // open url 
+		       window.location = "/homes/airbone.html"; // open url 
 		  }
 		   else if(x=='15'){
-		       window.location = "pcm.html"; // open url 
+		       window.location = "/homes/pcm.html"; // open url 
 		  }
 		   else if(x=='16'){
-		         window.location = "antenna.html"; // open url 
+		         window.location = "/homes/antenna.html"; // open url 
 		  }
 		   else if(x=='17'){
-		         window.location = "receiver.html"; // open url 
+		         window.location = "/homes/receiver.html"; // open url 
 		  }
 		   else if(x=='18'){
-		         window.location = "bit.html"; // open url 
+		         window.location = "/homes/bit.html"; // open url 
 		  }
 		  else if(x=='19'){
-		         window.location = "document.html"; // open url 
+		         window.location = "/homes/document.html"; // open url 
 		  }
 		  else if(x=='20'){
-			     window.location = "software.html"; // open url 
+			     window.location = "/homes/software.html"; // open url 
 			  
 			  
 		  }
 		  else if(x=='21'){
-			     window.location = "video.html"; // open url  
+			     window.location = "/homes/video.html"; // open url  
 		  }
 		   else if(x=='22'){
-			     window.location = "system.html"; // open url   
+			     window.location = "/homes/system.html"; // open url   
 		  }
       else if(x=='23'){
-			   window.location = "generator.html"; // open url     
+			   window.location = "/homes/generator.html"; // open url     
 		  }	
      else if(x=='24'){  
-	       window.location = "reader.html"; // open url  	  
+	       window.location = "/homes/reader.html"; // open url  	  
 		  }
     else if(x=='25'){
-			window.location = "display.html"; // open url   
+			window.location = "/homes/display.html"; // open url   
 		  }	
     else if(x=='26'){
-		    window.location = "inserter.html"; // open url 	    
+		    window.location = "/homes/inserter.html"; // open url 	    
 		  }	
     else if(x=='27'){
-			 window.location = "power-control.html"; // open url     
+			 window.location = "/homes/power_control.html"; // open url     
 		  }	
     else if(x=='28'){
-		 window.location = "engine-control.html"; // open url    
+		 window.location = "/homes/engine_control.html"; // open url    
 		  }
   else if(x=='29'){
-			   window.location = "generator-control.html"; // open url     
+			   window.location = "/homes/generator_control.html"; // open url     
 		  }	
      else if(x=='30'){
-			   window.location = "antenna-control.html"; // open url   
+			   window.location = "/homes/antenna_control.html"; // open url   
 			    
 		  }			  
 		     

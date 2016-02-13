@@ -33,6 +33,16 @@ class HomesController < ApplicationController
   end
 
   def contact
+    @contact = Contact.new
+  end
+
+  def post_contact
+    @contact = Contact.new(contact_params)
+    if @contact.save
+      redirect_to post_contact_homes_path
+    else
+      render :contact
+    end
   end
 
   def display
@@ -111,5 +121,11 @@ class HomesController < ApplicationController
   end
 
   def video
+  end
+
+  private
+
+  def contact_params
+    params.require(:contact).permit!
   end
 end

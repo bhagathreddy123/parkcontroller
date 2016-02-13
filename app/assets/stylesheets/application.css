@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+ @import "/assets/vendor/bootstrap/css/bootstrap.css";
+ @import "/assets/vendor/font-awesome/css/font-awesome.css";
+ @import "/assets/vendor/owl-carousel/owl.carousel.css";
+ @import "/assets/vendor/owl-carousel/owl.theme.css";
+ @import "/assets/vendor/magnific-popup/magnific-popup.css";
+ @import "/assets/vendor/isotope/jquery.isotope.css";
+ @import "/assets/vendor/mediaelement/mediaelementplayer.css";
+ @import "/assets/css/theme.css";
+ @import "/assets/css/theme-elements.css";
+ @import "/assets/css/theme-blog.css";
+ @import "/assets/css/theme-shop.css";
+ @import "/assets/css/theme-animate.css";
+ @import "/assets/vendor/rs-plugin/css/settings.css" ;
+ @import "/assets/vendor/circle-flip-slideshow/css/component.css"; 
+ @import "/assets/css/theme-responsive.css";
+ @import "/assets/css/skins/default.css";
+ @import "/assets/css/custom.css";
+
+
+ #error_explanation {
+  color: #f00;
+  border: 1px solid #CCC;
+  margin-bottom: 20px;
+  padding: 10px;
+  ul {
+    list-style: none;
+    margin: 0 0 18px 0;
+  }
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: #f00;
+  display: table;
+}
