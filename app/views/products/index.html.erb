@@ -1,0 +1,7 @@
+<h1>Products#index</h1>
+<% @products.each do |p| %>
+<%= p.name %>
+<%= p.price %>
+<%= p.category.name if p.category %>
+<% end %>
+<%= link_to "New", new_product_path %>

@@ -1,0 +1,8 @@
+<h1>Products#new</h1>
+<%= form_for @product do |f| %>
+<%= f.text_field :name %><br/>
+<%= f.text_field :price %><br/>
+<%= f.collection_select :category_id, Category.all, :id, :name, :prompt => "Select a Category" %>
+<%= f.text_field :new_category_name %>
+<%= f.submit %>
+<% end %>
